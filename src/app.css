@@ -27,7 +27,7 @@
     --color-primary-900: oklch(0.408 0.153 2.432);
     --color-primary-950: oklch(0.284 0.109 3.907);
 
-	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+	--font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
