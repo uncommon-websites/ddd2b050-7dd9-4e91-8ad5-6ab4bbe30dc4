@@ -2,27 +2,30 @@
 
 @theme {
 	/* Colors */
-	--color-gray-50: #f9fafb;
-	--color-gray-100: #f3f4f6;
-	--color-gray-200: #e5e7eb;
-	--color-gray-300: #d1d5db;
-	--color-gray-400: #9ca3af;
-	--color-gray-500: #6b7280;
-	--color-gray-600: #4b5563;
-	--color-gray-700: #374151;
-	--color-gray-800: #1f2937;
-	--color-gray-900: #111827;
-	--color-gray-950: #030712;
+	--color-gray-50: oklch(0.985 0.001 106.423);
+	--color-gray-100: oklch(0.97 0.001 106.424);
+	--color-gray-200: oklch(0.923 0.003 48.717);
+	--color-gray-300: oklch(0.869 0.005 56.366);
+	--color-gray-400: oklch(0.709 0.01 56.259);
+	--color-gray-500: oklch(0.553 0.013 58.071);
+	--color-gray-600: oklch(0.444 0.011 73.639);
+	--color-gray-700: oklch(0.374 0.01 67.558);
+	--color-gray-800: oklch(0.268 0.007 34.298);
+	--color-gray-900: oklch(0.216 0.006 56.043);
+	--color-gray-950: oklch(0.147 0.004 49.25);
 
-    /* Seed Brand Colors */
-    --color-seed-dark: #1a3026;
-    --color-seed-darker: #13241c;
-    --color-seed-card: #243e32;
-    --color-seed-lime: #dcf09e;
-    --color-seed-beige: #f2f2ed;
-    --color-seed-black: #191919;
-    --color-seed-white: #ffffff;
-    --color-seed-green-hover: #2a4a3b;
+    /* Primary Brand Colors */
+    --color-primary-50: oklch(0.971 0.014 343.198);
+    --color-primary-100: oklch(0.948 0.028 342.258);
+    --color-primary-200: oklch(0.899 0.061 343.231);
+    --color-primary-300: oklch(0.823 0.12 346.018);
+    --color-primary-400: oklch(0.718 0.202 349.761);
+    --color-primary-500: oklch(0.656 0.241 354.308);
+    --color-primary-600: oklch(0.592 0.249 0.584);
+    --color-primary-700: oklch(0.525 0.223 3.958);
+    --color-primary-800: oklch(0.459 0.187 3.815);
+    --color-primary-900: oklch(0.408 0.153 2.432);
+    --color-primary-950: oklch(0.284 0.109 3.907);
 
 	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
@@ -31,6 +34,6 @@
     body {
         font-family: var(--font-sans);
         -webkit-font-smoothing: antialiased;
-        color: var(--color-seed-black);
+        color: var(--color-gray-900);
     }
 }
